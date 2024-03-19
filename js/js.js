@@ -1,14 +1,17 @@
-var inputan=document.getElement BYId ('inputan');
-	function tombol (obj){
-		var kondisi = obj.inner HTML;
-		if(kondisi =="="){
-			inputan. inner HTML =inputan.inner HTML.slice(0,-1)||'0';
-		}else if(kondisi =="AC"){
-			inputan.inner HTML ="0";
-		}else {
-			if(inputan.inner HTML =="0"){
+var inputan=document.getElementById('inputan');
+	function tombol(obj){
+		var kondisi = obj.innerHTML;
+		if(kondisi=="="){
+			inputan.innerHTML = eval (inputan.innerHTML);
+		}else if(kondisi=="Del"){
+			inputan.innerHTML = inputan.innerHTML.slice(0,-1)||'0';
+		}else if(kondisi=="AC"){
+			inputan.innerHTML ="0";
 		}else{
-			inputan.inner HTML +=kondisi
+			if(inputan.innerHTML=="0"){
+				inputan.innerHTML = kondisi;
+		}else{
+			inputan.innerHTML += kondisi;
 		}
 	}
 }
