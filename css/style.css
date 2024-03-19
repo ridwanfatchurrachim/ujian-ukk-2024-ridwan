@@ -1,13 +1,13 @@
 body {
-	background-colo: purple;
+	background-color: blue;
 	font-family: monospace;
 }
-.kotaj{
-	widath:320px;
+.kotak{
+	width:320px;
 	margin:100px auto;
 }
 table{
-	widath:100%;
+	width:100%;
 	background-color: white;
 }
 td{
@@ -15,7 +15,7 @@ td{
 }
 #inputan{
 	height: 80px;
-	font-size:50px%;
+	font-size:50px;
 	text-align: right;
 	vertical-align: bottom;
 }
