@@ -11,7 +11,7 @@
 			<td colspan="4"id="inputan">0</td>
 		</tr>
 		<tr>
-			<td colspan="2"><button onclick="tombol(this)">AC</buton></td>
+			<td colspan="2"><button onclick="tombol(this)">AC</button></td>
 			<td><button onclick="tombol(this)">Del</button></td>
 			<td><button onclick="tombol(this)">/</button></td>
 		</tr>
